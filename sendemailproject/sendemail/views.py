@@ -6,7 +6,7 @@ from django.urls import reverse
 
 
 def index(request):
-    return render(request, template_name='sendmail/index.html', context={})
+    return render(request, template_name='sendemail/index.html', context={})
 
 
 def send_email(request):
@@ -18,7 +18,7 @@ def send_email(request):
             send_mail(subject, message, settings.EMAIL_HOST_USER, [to_email])
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
-        return HttpResponseRedirect(reverse('waybill:index'))
+        return HttpResponseRedirect(reverse('sendemail:index'))
     else:
         # In reality we'd use a form class
         # to get proper validation errors.
