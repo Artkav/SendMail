@@ -24,7 +24,7 @@
     Либо напрямую прописать данные параметры в файле settings.py после #SMTP Configuration
     
 #### 6) Разрешить доступ ненадежным приложениям к электронной почте:
-    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1ZxeUFPVWp3RVRoeEJRTEJDbDBxVE9yQkN4QXxBQ3Jtc0tuN2NseFRjNTlJbnVVWGZzeTNIekI5ajBPUXliVkRsN01xVkZLR2RIQXNBamMyN1lTQ1FKZFpuMThfeVYyUnJhQ0h1VzdOajdfQWdzS09SR2hHano5RFhNWlRhdURPOG1Vbm1sa0t6TGhRWlpBc0pWbw&q=https%3A%2F%2Fmyaccount.google.com%2Fu%2F0%2Flesssecureapps  
+    https://myaccount.google.com/u/0/lesssecureapps?pli=1&rapt=AEjHL4PS54xt0hxedRIbrGZ0qeV0GmJkWOUb_5Aa7KV4bHJ4iNjA5NqzzCCfoOC3Nt-M4OxJeINmy9dOa9Ydvu84Nbf1Mby5gQ  
 
 #### 7) Запустить сервер
     python manage.py runserver
